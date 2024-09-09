@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: justify;
+}
+
+body {
+    background-color: #1C1C1C; /* Deep black for background, representing power */
+    font-family: "Martian Mono", monospace;
+    color: #F4F4F4; /* Light grey for text to contrast with the dark background */
+}
+
+main {
+    min-height: 100vh;
+    width: 80vw;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 2em;
+    padding-top: 2em;
+    background-color: #4A148C; /* Dark purple for main content background */
+    border-left: 1em solid #FFD700; /* Gold border symbolizing excellence */
+    border-right: 1em solid #FFD700;
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.2); /* Soft golden glow shadow */
+}
+
+header {
+    background-color: #FFD700; /* Bold gold for header, a symbol of victory */
+    padding: 20px 0;
+}
+
+.logo {
+    display: block;
+    margin: 2em auto;
+    width: 150px;
+    height: auto;
+    width: 250px;
+}
+
+.banner {
+    display: block;
+    margin: 2em auto;
+    width: 45vw;
+    height: auto;
+    border: 2px solid #FFD700; /* Golden border around the banner image */
+}
+
+section {
+    margin-bottom: 3em;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+h2 {
+    margin-bottom: 0.5em;
+    color: #FFD700; /* Gold for headings to stand out */
+}
+
+ul li {
+    list-style-type: none;
+    padding-bottom: 10px;
+    text-align: center;
+    color: #FFD700; /* Gold for list items */
+}
+
+.list {
+    margin: auto;
+    width: 50%;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+.bold {
+    font-weight: bold;
+    color: #FFD700; /* Bold text in gold for emphasis */
+}
+
+.description {
+    margin-bottom: 15px;
+}
+
+.introduction.title {
+    padding-top: 2em;
+}
+
+blockquote {
+    margin-left: 1em;
+    margin-right: 1em;
+    font-style: italic;
+    color: #B39DDB; /* Light purple for quotes, softer but still regal */
+}
+
+footer {
+    padding: 2em;
+    text-align: center;
+    background-color: #4A148C; /* Dark purple for the footer background */
+    color: #FFD700; /* Gold text in footer for contrast and boldness */
+}
+
+header img {
+    filter: brightness(0) invert(1); /* Ensure logo works well on golden header */
+}
+
+a {
+    color: #F4F4F4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #FFD700;
+}
+
+/* Styles for the photo gallery */
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid layout */
+    gap: 1.5em;
+    margin: 2em auto;
+    padding: 0 2em;
+}
+
+.gallery figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    transition: transform 0.3s ease; /* Add a zoom effect on hover */
+}
+
+.gallery img:hover {
+    transform: scale(1.05); /* Zoom effect */
+}
+
+.gallery figcaption {
+    margin-top: 0.5em;
+    color: #FFD700; /* Gold color for figcaption */
+    font-size: 0.9em;
+    text-align: center;
+}
